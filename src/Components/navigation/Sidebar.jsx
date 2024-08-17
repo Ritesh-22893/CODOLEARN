@@ -47,16 +47,19 @@ function Sidebar({ title, SidebarShow, setSidebarShow, children }) {
         }}
         className="w-full">  
         </div>
-      <div className="flex flex-col px-44 font-bold text-white text-xl py-8  gap-10  w-50% bg-gradient-to-l from-blue-500 via-purple-700 to-blue-800">
+      {/* <div className="flex flex-col px-44 font-bold text-white text-xl py-8  gap-10  w-50% bg-gradient-to-l from-blue-500 via-purple-700 to-blue-800"> */}
+      <div className=" flex flex-col px-24 font-bold text-white text-xl py-8  gap-6  w-40% bg-blue-900  ">
+     
         {/* {title}
         {children} */}
          {NavData.map((val, i) => {
-          return
-        <Link to={val.path}><div key={i}> {val.title}</div></Link> 
+          return(
+        <Link to={val.path}><div key={i}>{val.title}</div></Link> 
+      );
         })}
-      </div>
-    </div>
-  );
+        </div>
+        </div>
+      );
 }
 export default Sidebar;
 

@@ -93,7 +93,7 @@ useEffect(()=>{
      <span className='text-yellow-300 font-extraboldr' >CODOLEARN</span> Platform <br/>for Enthusiast and Geeeks  !!!
      </div>
      <div className='text-white italic mt-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci iure dolorum commodi quam consequuntur soluta magnam consectetur tempora? Exercitationem, doloribus. </div>
-   <button className='mt-4 border rounded-[24px] text-lg font-extrabold text-gray-600 bg-white hover:text-white hover:bg-yellow-500 h-12 w-32' >Register</button>
+   <button className='mt-4 border rounded-[24px] text-lg font-extrabold text-gray-600 bg-white hover:bg-green-600 hover:text-gray-300 hover:scale-105 transition-all ease-in-out h-12 w-32' >Register</button>
 </div>
 
 <div className='mt-5 ml-12 border border-blue-950 rounded-xl bg-00 h-60 w-[470px] p-4 bg-blue-950'>
@@ -101,7 +101,7 @@ useEffect(()=>{
      Powerful Statement About Your Brand Goes Here 
          </div>
      <div className='text-white italic mt-3'>Lorem ipsum dolor sidipisci iure dolorum cosoluta magnam consectetur tempora? Exercitationem, doloribus. </div>
-   <button className='mt-4 border rounded-[15px] text-lg font-extrabold text-gray-600 bg-white hover:bg-yellow-400 h-12 w-32' >Learn More</button>
+   <button className='mt-4 border rounded-[15px] text-lg font-extrabold text-gray-600 bg-white hover:bg-green-600 hover:text-gray-300 hover:scale-105 transition-all ease-in-out h-12 w-32' >Learn More</button>
 </div>
 </div>
 {/* arranging two boxes ended */}

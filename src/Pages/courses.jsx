@@ -10,15 +10,18 @@ function Courses(){
     return(
         // for top background
         <>
-        <div className="h-[480px] w-screen bg-gradient-to-r from-fuchsia-800 to-violet-700">
-            <h1 className=' italic font-bold pt-20 pl-16 text-[43px]  text-white'>Pursuing Carrer <br/> In<span className='text-yellow-300'>  Frontend Developing </span>?
+        <div className="h-[480px] w-100vw bg-green-600">
+            <h1 className=' font-bold pt-20 pl-16 text-[43px]  text-white'>Pursuing Carrer <br/> In<span className='text-yellow-300 font '>  Frontend Developing </span>?
             </h1>
-            <h2 className='italic pt-8 pl-16 text-white text-xl'>Then, You are at the perfect place to be in !!</h2>
+            <h2 className='text-2xl pt-8 pl-16 text-white font-bold '>Then, <span className='text-yellow-300 '> You are at the perfect place to begin With !!</span></h2>
+
+            <h2 className='text-xl pt-6 pl-16 text-white '>Enroll in courses by clicking the button below</h2>
+
             {/* for buttons to aply now */}
   
-            <input className='text-xl font-bold text-white border-2 rounded-xl bg-pink-600 text-center ml-16 mt-16 h-14 w-36 hover:bg-violet-800 cursor-pointer' type="button" value='Apply Now'/>
+            <input className='text-xl font-bold text-white border-2 rounded-xl bg-pink-600 text-center ml-16 mt-6 h-14 w-36 hover:bg-violet-800 cursor-pointer' type="button" value='Apply Now'/>
 
-            <input className='text-xl font-bold text-white border-2 rounded-xl bg-blue-600 text-center ml-24 mt-12 h-14 w-36 relative right-[50px] hover:bg-yellow-500 cursor-pointer' type="button" value='Take Trail'/>
+            <input className='text-xl font-bold text-white border-2 rounded-xl bg-blue-600 text-center ml-24 mt-6 h-14 w-36 relative right-[50px] hover:bg-violet-800 cursor-pointer' type="button" value='Take Trail'/>
                 
             <img className=' absolute left-[730px] top-20 h-[400px] w-[500px] rounded-2xl' src="./bg image/bg-img.png" alt="" />
         </div>

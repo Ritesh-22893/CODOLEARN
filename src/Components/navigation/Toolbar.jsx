@@ -38,7 +38,7 @@ import { Link, useLocation } from 'react-router-dom';
 function Toolbar({ setSidebarShow }) {
   const location=useLocation();
   return (
-    <div className="w-screen h-[55px] flex justify-between bg-blue-700 sm:bg-violet-500 md:bg-red-500 lg:bg-blue-950 fixed  top-0 z-50">
+    <div className="w-screen h-[55px] flex justify-between bg-blue-950 fixed  top-0 z-50">
       <div className="text-xl drop-shadow-md capitalize py-3 px-6 text-white ">Menu </div>
       <div className="text-md hidden md:flex gap-10 py-3 px-3 text-white mx-auto ">
         {NavData.map((val, i) => {
@@ -55,7 +55,7 @@ function Toolbar({ setSidebarShow }) {
         setSidebarShow();
       }} className="" >
         {/* You can add the FaList icon here if needed */}
-        <BiFoodMenu className='text-2xl text-white my-3 mx-6'/>
+        <BiFoodMenu className='text-2xl text-white my-3 mx-6 cursor-pointer md:hidden'/>
       </div>
     </div>
   );
